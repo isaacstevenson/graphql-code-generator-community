@@ -1,4 +1,4 @@
-import { RawClientSideBasePluginConfig } from '@graphql-codegen/visitor-plugin-common';
+import { RawClientSideBasePluginConfig } from '@isaacstevenson/visitor-plugin-common';
 
 /**
  * @description This plugin generates `urql` (https://github.com/FormidableLabs/urql) composition functions with TypeScript typings.
