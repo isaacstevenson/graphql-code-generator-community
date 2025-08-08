@@ -8,7 +8,7 @@ import {
   getConfigValue,
   LoadedFragment,
   OMIT_TYPE,
-} from '@isaacstevenson/visitor-plugin-common';
+} from '@rwsglobal/visitor-plugin-common';
 import { VueUrqlRawPluginConfig } from './config.js';
 
 export interface UrqlPluginConfig extends ClientSideBasePluginConfig {
