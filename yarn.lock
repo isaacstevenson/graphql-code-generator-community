@@ -1950,22 +1950,6 @@
     wrap-ansi "^8.1.0"
     wrap-ansi-cjs "npm:wrap-ansi@^7.0.0"
 
-"@isaacstevenson/visitor-plugin-common@5.8.0-custom.4":
-  version "5.8.0-custom.4"
-  resolved "https://registry.yarnpkg.com/@isaacstevenson/visitor-plugin-common/-/visitor-plugin-common-5.8.0-custom.4.tgz#3848bdaf507c2b5bd0908409b252bfc59d14611c"
-  integrity sha512-VfjNpqcKH66u6USO00lTr9nuYIotj/VmgoH/vzXKstO0gCz4HBMIIkM35fhIFCXHTGYmO3DUpmJC/qwzZfqWwg==
-  dependencies:
-    "@graphql-codegen/plugin-helpers" "^5.1.0"
-    "@graphql-tools/optimize" "^2.0.0"
-    "@graphql-tools/relay-operation-optimizer" "^7.0.0"
-    "@graphql-tools/utils" "^10.0.0"
-    auto-bind "~4.0.0"
-    change-case-all "1.0.15"
-    dependency-graph "^0.11.0"
-    graphql-tag "^2.11.0"
-    parse-filepath "^1.0.2"
-    tslib "~2.6.0"
-
 "@istanbuljs/load-nyc-config@^1.0.0":
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@istanbuljs/load-nyc-config/-/load-nyc-config-1.1.0.tgz#fd3db1d59ecf7cf121e80650bb86712f9b55eced"
@@ -2372,6 +2356,22 @@
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/@rtsao/scc/-/scc-1.1.0.tgz#927dd2fae9bc3361403ac2c7a00c32ddce9ad7e8"
   integrity sha512-zt6OdqaDoOnJ1ZYsCYGt9YmWzDXl4vQdKTyJev62gFhRGKdx7mcT54V9KIjg+d2wi9EXsPvAPKe7i7WjfVWB8g==
+
+"@rwsglobal/visitor-plugin-common@5.8.0-custom.4":
+  version "5.8.0-custom.4"
+  resolved "https://registry.yarnpkg.com/@rwsglobal/visitor-plugin-common/-/visitor-plugin-common-5.8.0-custom.4.tgz#76e5ee191c93ebeec5619f6b2d2679029592cdfb"
+  integrity sha512-l22Cxm5XHFOOcMPV4KU0EjZJVPJsDqlYri5FbiNqAjPl8mcbVBkwlROzhyePh90n7gQ7uCcfSnrDZqtH3xDAUw==
+  dependencies:
+    "@graphql-codegen/plugin-helpers" "^5.1.0"
+    "@graphql-tools/optimize" "^2.0.0"
+    "@graphql-tools/relay-operation-optimizer" "^7.0.0"
+    "@graphql-tools/utils" "^10.0.0"
+    auto-bind "~4.0.0"
+    change-case-all "1.0.15"
+    dependency-graph "^0.11.0"
+    graphql-tag "^2.11.0"
+    parse-filepath "^1.0.2"
+    tslib "~2.6.0"
 
 "@sinclair/typebox@^0.24.1":
   version "0.24.51"
